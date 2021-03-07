@@ -130,7 +130,7 @@ export default class PleskClient {
       hosting_type: "virtual",
       hosting_settings: {
         ftp_login: username,
-        ftp_password: "eN8:xW3~zS4+lH3_",
+        ftp_password: password,
       },
       owner_client: {
         id: createdCustomer.id,
