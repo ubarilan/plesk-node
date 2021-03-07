@@ -1,5 +1,5 @@
 {
-  "name": "pleskapi",
+  "name": "plesk-node",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
@@ -7,7 +7,7 @@
   "scripts": {
     "run": "node ."
   },
-  "author": "",
+  "author": "ubarilan",
   "license": "ISC",
   "dependencies": {
     "generate-password": "^1.6.0",
