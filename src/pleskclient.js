@@ -10,7 +10,8 @@ module.exports = class PleskClient {
     } else {
       this.owner_login = "admin";
     }
-    if (!url || !basickey || !ips) throw "Please enter url and basic key";
+    if (!url || !basickey || !ips)
+      throw "Please enter url, basic key and IPs in the constructor.";
   }
 
   call(path, method, body) {

@@ -4,12 +4,22 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "run": "node ."
+    "run": "node src/app.js"
   },
   "author": "ubarilan",
-  "license": "ISC",
+  "license": "(MIT OR Apache-2.0)",
   "dependencies": {
     "generate-password": "^1.6.0",
     "node-fetch": "^2.6.1"
+  },
+  "keywords": [
+    "plesk",
+    "plesk-api",
+    "apiplesk",
+    "plesk-js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubarilan/plesk-node"
   }
 }
