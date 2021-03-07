@@ -1,6 +1,6 @@
-import fetch from "node-fetch";
-import generator from "generate-password";
-export default class PleskClient {
+const fetch = require("node-fetch");
+const generator = require("generate-password");
+module.exports = class PleskClient {
   constructor(url, basickey, ips, owner_login) {
     this.url = url;
     this.basickey = basickey;
@@ -195,4 +195,4 @@ export default class PleskClient {
     var nDomain = await this.createDomain(domainData);
     return { nDomain, ftp: { login: ftplogin, password } };
   }
-}
+};

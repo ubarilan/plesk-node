@@ -1,3 +1,3 @@
-import PleskClient from "./pleskclient";
+const PleskClient = require("./pleskclient");
 
-export default PleskClient;
+module.exports = PleskClient;
